@@ -14,3 +14,9 @@ function checkCountValue() {
 function displayCount() {
 document.getElementById('countDisplay').innerHTML=count; // Display the count in the HTML
 }
+
+function reset() {
+    count=0
+    alert("Your account followers have been gone")
+    displayCount();
+}
