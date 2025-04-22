@@ -41,7 +41,8 @@ button.onclick = endTest;
             outputDiv.innerHTML = "<h2>Typing Test Results:</h2>" +
                 "<p>Words Typed: " + typedWords + "</p>" +
                 "<p>Time Elapsed: " + timeElapsed.toFixed(2) + " seconds</p>" +
-                "<p>Words Per Minute (WPM): " + wpm + "</p>";
+                "<p>Words Per Minute (WPM): " + wpm + "</p>"+
+                "<P>Total Length: "+ userTypedText.length + "</P>";
 
             // Reset the button
             var button = document.getElementById("btn");
